@@ -1,0 +1,48 @@
+
+@import "./main.css";
+
+.header{
+    padding: 20px 0 30px 60px;
+}
+
+.intro{
+    padding: 0 0 0 30px;
+    /* font-size: 25px; */
+}
+
+.picture {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 768px){
+    .contents {
+    /* font-size: 14px; */
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #58627a;
+    }
+}
+
+
+.contents h2{
+    /* font-size: 35px; */
+    color: #35405a;
+    padding: 0 0 0 50px;
+}
+
+.contents p{
+    padding: 0 0 0 50px;
+    /* font-size: 25px; */
+}
+
+.bottom {
+    margin-right: 40px;
+}
